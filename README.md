@@ -32,6 +32,8 @@ npx cypress run
 ```
 
 4. Select **E2E Testing**, and choose your preferred browser.
+   - `login.cy.js` (/cypress/e2e/) covers the login page flows and validations
+   - `dashboard.cy.js` (/cypress/e2e/) covers the dashboard, navigation, and database item management
 
 
 ## Some bugs found
