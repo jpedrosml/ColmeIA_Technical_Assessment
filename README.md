@@ -102,3 +102,5 @@ npx cypress run
 - The email provided some credentials, but due to a bug in the application, valid credentials trigger a confirmation dialog before granting access. Likewise, it is possible to access the dashboard without login;
 - There are some buttons that have no identifiers, which ended up compromising the testing process. Both were targeted using positional selectors relative to nearby elements, and were also documented inline when they happened.
 
+
+
