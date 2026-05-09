@@ -36,6 +36,47 @@ npx cypress run
    - `dashboard.cy.js` (/cypress/e2e/) covers the dashboard, navigation, and database item management
 
 
+## Coverage
+
+### Login Page (`login.cy.js`)
+- Invalid credentials login attempt (expected: error message of some sort);
+- Blank input fieflds (expected: specific validation messages);
+- Invalid character in email field and empty state transitions (expected: adequate validation messages for each state);
+- Email without "@" symbol (expected: invalid email message);
+- Email without domain (.com and such) (expected: invalid email message);
+- Whitespaces on email input (expected: required field message);
+- Field transition without input (clicking from email to password field, and vice versa) (expected: required field message);
+- Login attempt with email only and password only (expected: appropriate error messages for each scenario);
+- Password field masking (expected: input type to be password, in other words, the masking dots are expected);
+- SQL injection strings in both fields (expected: immediate rejection);
+- XSS strings in both fields (expected: immediate rejection);;
+- "Esqueceu sua senha?" appropriate behavior (expected: redirect to password recovery page or modal, which never happens by the way);
+- Successful login with valid credentials (expected: redirect to dashboard/main page);
+- Back button behavior after login (expected: session protection preventing return to login page);
+- Direct dashboard access without authentication (expected: redirect to login page).
+
+### Dashboard Page (`dashboard.cy.js`)
+- "Candidato" profile button behavior (expected: dropdown or common profile options ex: settings, customize etc);
+- Campaign submenu expansion on button click (expected: submenu to expand correctly);
+- Campaign submenu toggle on second click (expected: submenu to collapse);
+- Submenu item navigatio (expected: proper routing and rendering);
+- Bancos de Dados page proper rendering (expected: table, search option and action buttons to be present and functional);
+- Colmeia Forms page content rendering (expected: page content to be displayed);
+- Item creation modal display (expected: modal with name input);
+- Empty form submission validation (expected: validation that blocks empty tries);
+- Empty item creation bypass on double save (expected: validation should be retained);
+- Successful item creation with name and date (expected: immediate show up in the list);
+- Item remains after page reload (expected: created items to remain in the list upon such actions);
+- Item remains after navigating between submenu pages (expected: created items to remain in the list upon such actions);
+- Multiple item creation (expected: all items to appear in the list);
+- Refresh button (expected: list to sync and retain already existing items);
+- Single item deletion (expected: item to be removed);
+- Single deletion when multiple items exist (expected: only the selected item should be removed);
+- Search functionality with multiple items (expected: only the input to be displayed);
+- Single item archiving (expected: item to be removed from database list and appear in archived section);
+- Archived item visibility in archived section (expected: archived items to be listed);
+- Single item archiving when multiple items exist (expected: only the selected item to be archived).
+  
 ## Some bugs found
 
 ### Login Page
