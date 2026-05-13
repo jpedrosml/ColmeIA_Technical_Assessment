@@ -1,6 +1,6 @@
 # ColmeIA Technical Assessment - Test Analyst Role
 
-This repository stores the technical assessment code for the Test Analyst role at ColmeIA. The goal of this assessment is to use Cypress to explore the given application and identify abnormalities. Automated test scenarios were implemented using Cypress + JavaScript, ranging from basic smoke checks to critical flow validations, and all bugs found are documented inline with their expected vs. actual behavior.
+This repository stores the technical assessment code for the Test Analyst role at ColmeIA. The goal of this assessment is to use Cypress to explore the given application and identify abnormalities. Automated test scenarios were implemented using Cypress + JavaScript, ranging from basic smoke checks to critical flow validations, and all bugs found are documented inline with their expected vs. actual behavior. You can find the report written in Portuguese [here|https://docs.google.com/document/d/19oYvkHU52yY7yX2_BKWtwzLZerNqac0iLqvQcJBGqMY/edit?usp=sharing].
 
 
 ## Tech Stack
