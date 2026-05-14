@@ -105,7 +105,7 @@ npx cypress run
 
 ## About the analyst
 
-João Pedro is a QA Engineer, Computer Science graduate, and postgraduate specialist in Software Engineering with experience in both manual and automated testing, AI model evaluation, and Python development. Particularly interested in software quality, test automation.
+João Pedro is a QA Engineer, Computer Science graduate, and postgraduate specialist in Software Engineering with experience in both manual and automated testing, AI model evaluation, and Python development. Particularly interested in software quality and test automation.
 
 - [LinkedIn](https://www.linkedin.com/in/jpsmelo/)
 - [Lattes](http://lattes.cnpq.br/3397904813329799)
