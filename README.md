@@ -32,8 +32,8 @@ npx cypress run
 ```
 
 4. Select **E2E Testing**, and choose your preferred browser.
-   - `login.cy.js` (/cypress/e2e/) covers the login page flows and validations
-   - `dashboard.cy.js` (/cypress/e2e/) covers the dashboard, navigation, and database item management
+   - `login.cy.js` ```(/cypress/e2e/)``` covers the login page flows and validations
+   - `dashboard.cy.js` ```(/cypress/e2e/)``` covers the dashboard, navigation, and database item management
 
 
 ## Coverage
@@ -103,4 +103,9 @@ npx cypress run
 - There are some buttons that have no identifiers, which ended up compromising the testing process. Both were targeted using positional selectors relative to nearby elements, and were also documented inline when they happened;
 - "Colmeia Forms" submenu option could not be tested since it does not render anything.
 
+## About the analyst
 
+João Pedro is a QA Engineer, Computer Science graduate, and postgraduate specialist in Software Engineering with experience in both manual and automated testing, AI model evaluation, and Python development. Particularly interested in software quality, test automation.
+
+- [LinkedIn](https://www.linkedin.com/in/jpsmelo/)
+- [Lattes](http://lattes.cnpq.br/3397904813329799)
