@@ -103,6 +103,14 @@ npx cypress run
 - There are some buttons that have no identifiers, which ended up compromising the testing process. Both were targeted using positional selectors relative to nearby elements, and were also documented inline when they happened;
 - "Colmeia Forms" submenu option could not be tested since it does not render anything.
 
+### Conclusion
+
+The test suite ran a total of 37 tests across both spec files, with 24 passing and 13 failing.
+
+![Coverage](evidences/COVERAGE_CONCLUSION.png)
+
+All the tests that failed are described above and [in the report](https://docs.google.com/document/d/19oYvkHU52yY7yX2_BKWtwzLZerNqac0iLqvQcJBGqMY/edit?usp=sharing).
+
 ## About the analyst
 
 João Pedro is a QA Engineer, Computer Science graduate, and postgraduate specialist in Software Engineering with experience in both manual and automated testing, AI model evaluation, and Python development. Particularly interested in software quality and test automation.
